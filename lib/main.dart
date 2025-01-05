@@ -3,7 +3,16 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-        body: Container(
+        body: GradientContainer() 
+      ),
+    debugShowCheckedModeBanner: false,
+  ));
+}
+
+class GradientContainer extends StatelessWidget {
+  @override
+  Widget build(context) {
+    return Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [Color.fromARGB(255, 8, 64, 111), Colors.blue],
@@ -20,7 +29,6 @@ void main() {
           ),
         ),
       ),
-    )),
-    debugShowCheckedModeBanner: false,
-  ));
+    );
+  }
 }
