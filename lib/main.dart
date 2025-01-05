@@ -10,6 +10,7 @@ void main() {
 }
 
 class GradientContainer extends StatelessWidget {
+  const GradientContainer({super.key});
   @override
   Widget build(context) {
     return Container(
