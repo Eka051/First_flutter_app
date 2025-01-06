@@ -5,8 +5,8 @@ void main() {
   runApp(MaterialApp(
     home: Scaffold(
       body: GradientContainer(
-        Color.fromARGB(255, 2, 10, 50),
-        Color.fromARGB(255, 7, 136, 187),
+        const Color.fromARGB(255, 2, 10, 50),
+        const Color.fromARGB(255, 7, 136, 187),
       ),
     ),
     debugShowCheckedModeBanner: false,
